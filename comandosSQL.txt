@@ -1,0 +1,21 @@
+CREATE TABLE Alumnos (
+    carnet INT(6) PRIMARY KEY,
+    nombre VARCHAR(50),
+    grado VARCHAR(20),
+    telefono VARCHAR(15)
+);
+
+INSERT INTO Alumnos (carnet, nombre, grado, telefono)
+VALUES (123456, 'Juan Pérez', 'Noveno grado', '1234567890');
+
+INSERT INTO Alumnos (carnet, nombre, grado, telefono)
+VALUES (234567, 'María Rodríguez', 'Décimo grado', '9876543210');
+
+INSERT INTO Alumnos (carnet, nombre, grado, telefono)
+VALUES (345678, 'Carlos Gómez', 'Undécimo grado', '5555555555');
+
+INSERT INTO Alumnos (carnet, nombre, grado, telefono)
+VALUES (456789, 'Laura Ramírez', 'Décimo grado', '1111111111');
+
+INSERT INTO Alumnos (carnet, nombre, grado, telefono)
+VALUES (567890, 'Ana López', 'Noveno grado', '9999999999');
