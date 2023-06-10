@@ -12,9 +12,9 @@
             padding: 5px;
         }
     </style>
-</head>
-<body>
-    <h1>Listado de Alumnos</h1>
+<head>
+    <title>Listado de Alumnos</title>
+    <link rel="stylesheet" href="style.css">
 
     <?php
     $servername = "localhost";
